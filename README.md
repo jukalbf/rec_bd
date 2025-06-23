@@ -7,17 +7,18 @@ git clone https://github.com/jukalbf/rec_bd.git
 # Baixar as dependencias
 npm install
 ```
-2. Rode o projeto
-```bash
-node app.js
-```
-3. Configurar .env
+2. Configurar .env
     * Crie um arquivo .env e adicione o link do mongodb
 ```.env
     # Exemplo
     MONGO_URI=mongodb+srv://<db_username>:<db_password>@clustergeral.rznqc.mongodb.net/?retryWrites=true&w=majority&appName=ClusterGeral=
     # Colocar as credenciais no lugar de <db_username> e <db_password>
 ```
+3. Rode o projeto
+```bash
+node app.js
+```
+
 
 ## Como visualizar as requisições
 Como não foi desenvolvido um frontend para esse projeto, as formas de visualizar os resultados são:
